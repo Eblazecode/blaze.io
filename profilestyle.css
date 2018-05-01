@@ -1,0 +1,106 @@
+
+
+body{
+
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: white;
+}
+#header1{
+    color: white;
+    background-color: dimgrey;
+    border-radius: 5%;
+    padding: 10%;
+
+
+
+
+}
+#navdav{
+    background-image: url("bnw codes.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+
+}
+#div0{
+     background-image: url("butterfly.jpeg");
+    color:whitesmoke;
+    width: 80%;
+    height: 70%;
+    margin-bottom: 3%;
+    padding: 8%;
+
+}
+
+
+#hello{
+    background-color: tomato;
+}
+
+#image1{
+
+    border-image: round;
+    border-radius: 55px;
+    width: 80%;
+    margin-left:2%;
+    margin-top: 10%;
+
+}
+#socialmedia{
+    background-color:tomato;
+    border-radius: 10%;
+    padding: 2%;
+    margin: 3%;
+}
+#intro{
+    font-size: larger;
+    text-align: center;
+    padding: 1%;
+}
+
+
+#div1{
+
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    background-image: url("codes.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding:10%;
+
+}
+#summary{
+    font-size: large;
+    text-indent: each-line;
+}
+#skills{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    background-image: url("greemcoffee.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding:10%;
+    font-size: large;
+}
+#facebook,#twit,#insta,#git{
+    color:white;
+}
+#education{
+
+}
+#aboutme{
+
+    text-align: center;
+}
+a :hover{
+    color: white;
+}
+a:active{
+    color: white;
+}
+a:visited{
+    color: white;
+}
