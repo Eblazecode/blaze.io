@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## I AM ENOCH O DANIELS
 
 You can use the [editor on GitHub](https://github.com/Eblazecode/blaze.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
