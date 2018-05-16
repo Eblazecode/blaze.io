@@ -1,5 +1,46 @@
 
 
+/* Larger than mobile */
+@media only screen and (min-width: 200px) {
+    .edu{
+        height: 5000px;
+        padding-top: 4%;
+        padding-bottom: 3%;
+        margin-top: 4px;
+    }
+    .skills{
+         margin-top: 200px;
+        height: 700px;
+
+    }.experience{
+
+         }
+    .aboutme{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    #talks{
+        margin-bottom: 5%;
+    }
+    .shades{
+        height: 900px;
+    }
+    .shades .contact{
+        background-color: purple;
+
+    }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Larger than tablet */
+@media (max-width: 450px) {
+    .edu{
+        height: auto;
+    }
+}
 
 .header1{
      background-image: url("ideas.jpeg");
@@ -34,7 +75,7 @@
     padding: 3%;
     color: black;
     background-color: white;
-    height: 500px;
+    height: 600px;
     margin-top: 3%;
 }
 .aboutme h1{
@@ -49,7 +90,7 @@
 #talks{
     padding: 3%;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
-    margin-bottom: 5%;
+
 }
 
 #myname{
@@ -63,12 +104,11 @@
     background-color:black;
 
     color: white;
-    background-size: cover;
+    background-size: contain;
 
 }
 #aboutme{
 
-    text-align: center;
 }
 
 
@@ -80,33 +120,56 @@
     display: none;
 }
 .edu{
-    background-color: lightslategray;
+    background-image: url("eduapple.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: black;
     padding: 2%;
-    height: 600px;
+    height: 900px;
 
 
 
 }
 .shades{
-    padding: 5px;
+    background-image: url("ecentric mic.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    color: white;
+    background-size: cover;
+    height: 1000px;
+
+}
+.experience{
+    background-color: whitesmoke;
+    height: 800px;
+    color: black;
+    padding-top:5% ;
+}
+.contact{
+    color: black;
+}
+#submitb{
+    color: white;
 }
 #uni{
     background-color: white;
     color: black;
     padding: 2%;
 
+
 }
 #high{
     background-color: white;
     color: black;
     padding: 2%;
+
 }
 #design{
     margin-top: 2%;
      background-color: white;;
      color: black;
-     padding: 2%;
+    padding: 2%;
 
  }
 #add{
@@ -114,6 +177,7 @@
     background-color: white;;
     color: black;
     padding: 2%;
+    margin-top: 15px;
 
 }
 a :hover{
@@ -122,62 +186,9 @@ a :hover{
 a:active{
     color: white;
 }
-a:visited{
+a:visited {
     color: white;
 }
-
-
-
-/* Larger than mobile */
-@media only screen and (max-width: 411px) {
-    .edu{
-        height: 600px;
-        padding-top: 4%;
-        padding-bottom: 3%;
-        margin-top: 4px;
-    }
-    .skills{
-        padding-bottom: 5%;
-        height: 1000px;
-    }
-}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 500px) {
-    .skills{
-        height: 600px;
-        margin-top: 10px;
-    }
-    .aboutme{
-        margin-bottom: 10px;
-    }
-
-     .skills{
-         height: 1000px;
-         margin-bottom: 8%;
-     }
-     .edu{
-         height: 700px;
-         margin-top: 30px;
-     }
-
-}
-
-/* Larger than tablet */
-@media (max-width: 450px) {
-    .edu{
-        height: auto;
-    }
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
-
-
 #slideshow {
     margin: 50px auto;
     position: relative;
