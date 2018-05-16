@@ -1,99 +1,120 @@
 
 
-body{
 
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+.header1{
+     background-image: url("ideas.jpeg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
     color: white;
+    height: 600px;
+    padding-top: 4%;
 }
-#header1{
+#landingword{
+    padding: 5%;
+}
+.firstslide{
+    background-image: url("web dev office.jpeg");
+    background-size: 500px;
+}
+.secslide{
+    background-image: url("ideas.jpeg");
+    background-size: cover;
+}
+#home, #about, #service, #contact, #gallery {
+
+    border: none;
+    margin-inside: 3%;
     color: white;
-    background-color: dimgrey;
-    border-radius: 5%;
-    padding: 10%;
-
-
+    background-color: transparent;
+    border-bottom: 1px solid white;
 
 
 }
-#navdav{
-    background-image: url("bnw codes.jpeg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: auto;
-
-
+.aboutme{
+    padding: 3%;
+    color: black;
+    background-color: white;
+    height: 500px;
+    margin-top: 3%;
 }
-#div0{
-     background-image: url("butterfly.jpeg");
-    color:whitesmoke;
-    width: 80%;
-    height: 70%;
-    margin-bottom: 3%;
-    padding: 8%;
-
-}
-
-
-#hello{
-    background-color: tomato;
-}
-
-#image1{
-
-    border-image: round;
-    border-radius: 55px;
-    width: 80%;
-    margin-left:2%;
-    margin-top: 10%;
-
-}
-#socialmedia{
-    background-color:tomato;
-    border-radius: 10%;
-    padding: 2%;
-    margin: 3%;
-}
-#intro{
-    font-size: larger;
+.aboutme h1{
     text-align: center;
-    padding: 1%;
+    border-bottom: 1px solid black;
+}
+#image{
+    padding-top: 3%;
+
+
+}
+#talks{
+    padding: 3%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin-bottom: 5%;
+}
+
+#myname{
+    padding-top: 5%;
 }
 
 
-#div1{
+.skills{
 
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   padding: 3%;
+    background-color:black;
+
     color: white;
-    background-image: url("codes.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    padding:10%;
-
-}
-#summary{
-    font-size: large;
-    text-indent: each-line;
-}
-#skills{
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: white;
-    background-image: url("greemcoffee.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    padding:10%;
-    font-size: large;
-}
-#facebook,#twit,#insta,#git{
-    color:white;
-}
-#education{
+    background-size: cover;
 
 }
 #aboutme{
 
     text-align: center;
+}
+
+
+#viewans1,#viewans2,#viewans3,#viewans4{
+    padding: 2%;
+    background-color: white;
+    color: black;
+    font-size: small;
+    display: none;
+}
+.edu{
+    background-color: lightslategray;
+    color: black;
+    padding: 2%;
+    height: 600px;
+
+
+
+}
+.shades{
+    padding: 5px;
+}
+#uni{
+    background-color: white;
+    color: black;
+    padding: 2%;
+
+}
+#high{
+    background-color: white;
+    color: black;
+    padding: 2%;
+}
+#design{
+    margin-top: 2%;
+     background-color: white;;
+     color: black;
+     padding: 2%;
+
+ }
+#add{
+
+    background-color: white;;
+    color: black;
+    padding: 2%;
+
 }
 a :hover{
     color: white;
@@ -103,4 +124,74 @@ a:active{
 }
 a:visited{
     color: white;
+}
+
+
+
+/* Larger than mobile */
+@media only screen and (max-width: 411px) {
+    .edu{
+        height: 600px;
+        padding-top: 4%;
+        padding-bottom: 3%;
+        margin-top: 4px;
+    }
+    .skills{
+        padding-bottom: 5%;
+        height: 1000px;
+    }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 500px) {
+    .skills{
+        height: 600px;
+        margin-top: 10px;
+    }
+    .aboutme{
+        margin-bottom: 10px;
+    }
+
+     .skills{
+         height: 1000px;
+         margin-bottom: 8%;
+     }
+     .edu{
+         height: 700px;
+         margin-top: 30px;
+     }
+
+}
+
+/* Larger than tablet */
+@media (max-width: 450px) {
+    .edu{
+        height: auto;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
 }
